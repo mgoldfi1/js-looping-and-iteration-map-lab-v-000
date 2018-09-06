@@ -9,5 +9,5 @@ function nameToAttributes(drivers) {
   for (const driver of drivers) {
     newArray.push(Object.assign({},{firstName: driver.split(" ")[0]},{lastName: driver.split(" ")[1]}
   }
-  return newArray
+  console.log( newArray )
 }
